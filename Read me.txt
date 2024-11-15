@@ -1,0 +1,28 @@
+All stock data acquired from:
+
+https://www.nasdaq.com/market-activity/stocks/{Stock Symbol}/historical?page=1&rows_per_page=10&timeline=y10
+
+
+GDP data acquired from:
+
+https://apps.bea.gov/histdatacore/fileStructDisplay.html?theID=12025&HMI=7&oldDiv=National%20Accounts&year=2024&quarter=,%20Q2&ReleaseDate=September-27-2024&Vintage=Third
+
+
+Inflation data acquired from:
+
+https://data.bls.gov/pdq/SurveyOutputServlet
+
+
+Daily treasury rates acquired from:
+
+https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value={year}
+
+
+Federal Funds Effective Rate aquired from:
+
+https://fred.stlouisfed.org/series/FEDFUNDS
+
+
+Employment data acquired from:
+
+https://www.bls.gov/ces/data/employment-and-earnings/
