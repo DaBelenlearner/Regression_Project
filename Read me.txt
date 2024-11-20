@@ -1,0 +1,35 @@
+All stock data acquired from:
+
+https://www.nasdaq.com/market-activity/stocks/{Stock Symbol}/historical?page=1&rows_per_page=10&timeline=y10
+
+
+CPI data acquired from:
+
+https://fred.stlouisfed.org/series/MEDCPIM158SFRBCLE
+
+
+GDP data acquired from:
+
+https://fred.stlouisfed.org/series/GEPUCURRENT
+
+
+Inflation data acquired from:
+
+https://data.bls.gov/pdq/SurveyOutputServlet
+
+
+Federal Funds Effective Rate aquired from:
+
+https://fred.stlouisfed.org/series/FEDFUNDS
+
+
+Employment data acquired from:
+
+https://www.bls.gov/ces/data/employment-and-earnings/
+
+
+'Stock Return' was calculated by dividing the column 'Close/Last' by 'Open' minus 1
+
+Made all csv files daily. If a file only had monthly or yearly data, I copied the values into each day. For example, if it was monthly data, all dates in that month have the same value. If it was yearly, all dates, months have the same values.
+
+Created a Combined Data file which combines all of the data into 1 file that can be processed using regression methods.
